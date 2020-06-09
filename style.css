@@ -1,0 +1,21 @@
+/* Définition des Polices */
+
+@font-face{
+    font-family: 'dayrom';
+    src: url('police/dayrom.woff') format('woff');
+    src: url('police/dayrom.eot') format('embedded-opentype');
+    src: url('police/dayrom.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Elements principaux de la page */
+
+body{
+    background-color: #fff;
+    color: #000;
+    max-width: 950px;
+    margin: auto;
+    border: 1px solid rgba(7, 72, 88, 0.5);
+    padding: 0.5em 0.5em;
+}
