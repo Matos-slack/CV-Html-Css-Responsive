@@ -12,10 +12,57 @@
 /* Elements principaux de la page */
 
 body{
-    background-color: #fff;
+    background-color: rgb(243, 243, 243);
     color: #000;
     max-width: 950px;
     margin: auto;
-    border: 1px solid rgba(7, 72, 88, 0.5);
-    padding: 0.5em 0.5em;
+    border: 1px solid rgba(0, 23, 151, 0.459);
+    font-family: 'dayrom', Arial, Helvetica, sans-serif;
 }
+
+/* Header */
+
+header{
+    display: flex;
+}
+
+header img{
+    border-radius: 50%;
+    border: 0.5em solid rgba(30, 126, 182, 0.822);
+}
+
+.profil_photo{
+    background-color: rgba(30, 126, 182, 0.822) ;
+    width: 33%;
+    text-align: center;
+    padding-top: 0.5em;
+}
+.header_name{
+     display: flex;
+    flex-direction: column;
+    margin-left: 3.5em;
+    padding-top: 2em;
+ }
+
+header h1{
+     font-size: 2em;
+     text-transform: uppercase;
+     line-height: 0em;
+ }
+  
+.name-h1{
+    color: rgba(30, 126, 182, 0.822);
+} 
+
+header h2{
+    font-size: 1.3em;
+    line-height: 0em;
+}
+
+.underline-h2{
+    border-bottom: 0.05em solid rgba(30, 126, 182, 0.822);
+    padding-bottom: 0.10em;
+}
+
+/* ASIDE */
+
