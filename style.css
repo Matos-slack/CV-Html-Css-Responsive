@@ -311,5 +311,15 @@ footer {
     main h4{
         font-size: 0.9em;
     }
+    footer{
+        background-color: rgba(30, 126, 182, 0.678);
+    }
+    .footer_left{
+        display: none;
+    }
+    footer p{
+        padding-top: 2em;
+        margin: auto;
+    }
 }
 
