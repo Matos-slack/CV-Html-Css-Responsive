@@ -1,25 +1,23 @@
 /* Définition des Polices */
 
 @font-face{
-    font-family: 'dayrom';
-    src: url('police/dayrom.woff') format('woff');
-    src: url('police/dayrom.eot') format('embedded-opentype');
-    src: url('police/dayrom.ttf') format('truetype');
-    src: url('police/20000DollarBail.ttf') format('truetype');
+    font-family: 'chicken';
+    src: url('police/CHICKEN\ Pie.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
+
 /* Elements principaux de la page */
 
 body{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(238, 238, 238);
     color: #000;
     max-width: 920px;
     margin: auto;
-    border: 1px solid rgba(0, 23, 151, 0.459);
-    font-family: '20000DollarBail', Arial, Helvetica, sans-serif;
-    font-size: 0.9em;
+    border: 1px solid rgba(30, 126, 182, 0.678);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.85em;
 }
 
 
@@ -39,19 +37,20 @@ header img{
     background-color: rgba(30, 126, 182, 0.678) ;
     width: 32%;
     text-align: center;
-    padding-top: 0.5em;
+    padding-top: 2em;
 }
 .header_name{
      display: flex;
     flex-direction: column;
     margin-left: 3.5em;
-    padding-top: 2em;
+    padding-top: 4em;
  }
 
 header h1{
-     font-size: 2em;
+     font-size: 2.5em;
      text-transform: uppercase;
      line-height: 0em;
+     font-family: 'chicken';
  }
   
 .name-h1{
@@ -81,10 +80,11 @@ aside {
 
 aside h3{
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1.6em;
     background-color: rgba(53, 9, 9, 0.89);
     color: rgba(30, 126, 182, 0.959);
     text-align: center;
+    font-family: 'chicken';
     padding-bottom: 0.2em;
     padding-top: 0.2em;
 }
@@ -111,6 +111,7 @@ aside h3{
     text-align: center;
     padding-left: 1em;
     padding-right: 1em;
+    padding-bottom: 1em;
 }
 
 .icons{
@@ -157,10 +158,11 @@ main {
 /* MAIN Titre */
 
 main h3{
-    font-size: 1.3em;
+    font-size: 1.6em;
     text-transform: uppercase;
     color: #000;
     text-align: left;
+    font-family: 'chicken';
 }
 
 .main_title{
@@ -192,6 +194,7 @@ main h4{
     text-transform: uppercase;
     font-size: 1.1em;
     margin-bottom: 0px;
+    font-family: 'chicken';
 }
 
 .main_contenu i{
@@ -201,7 +204,7 @@ main h4{
 }
 
 main h5{
-    font-size: 1em;
+    font-size: 1.05em;
     font-style: italic;
     font-weight: normal;
 }
@@ -209,6 +212,41 @@ main h5{
 .main_recommantation{
     display: flex;
     justify-content: space-around;
+}
+
+.main_recommantation a{
+    text-decoration: none;
+    color: #000;
+}
+
+.main_recommantation a:hover{
+    font-weight: bold;
+}
+
+.main_recommantation i{
+    font-size: 0.8em;
+    padding-top: 0.2em;
+}
+
+.main_recommantation p{
+    margin-left: 1.8em;
+}
+
+.main_recommantation h5{
+    margin-left: 1.8em;
+}
+
+
+/* Footer */
+
+.footer_left{
+    width: 32%;
+    background-color: rgba(30, 126, 182, 0.678);
+}
+
+footer p{
+    font-size: 0.5em;
+    margin-right: 1em;
 }
 
 /* Position General bloc page */
