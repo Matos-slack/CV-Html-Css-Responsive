@@ -102,7 +102,7 @@ aside h3{
 }
 
 .about_me{
-     /* flex-grow: 3; */
+     flex-grow: 3;
     padding-bottom: 20em;
 }
 .about_me p{
@@ -182,6 +182,13 @@ main i {
     margin-left: 0.5em;
     min-width: 11em;
     padding-left: 0px;
+    margin-right: 0.5em;
+}
+
+main h4{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    margin-bottom: 0px;
 }
 
 /* Position General bloc page */
