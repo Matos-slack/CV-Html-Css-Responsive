@@ -49,7 +49,7 @@ header h1{
      font-size: 2.5em;
      text-transform: uppercase;
      line-height: 0em;
-     font-family: 'chicken';
+     font-family: 'chicken' ,Georgia, 'Times New Roman', Times, serif;
  }
   
 .name-h1{
@@ -83,7 +83,7 @@ aside h3{
     background-color: rgba(53, 9, 9, 0.89);
     color: rgba(30, 126, 182, 0.959);
     text-align: center;
-    font-family: 'chicken';
+    font-family: 'chicken',Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 0.2em;
     padding-top: 0.2em;
 }
@@ -164,7 +164,7 @@ main h3{
     text-transform: uppercase;
     color: #000;
     text-align: left;
-    font-family: 'chicken';
+    font-family: 'chicken',Georgia, 'Times New Roman', Times, serif;
 }
 
 .main_title{
@@ -197,7 +197,7 @@ main h4{
     text-transform: uppercase;
     font-size: 1.1em;
     margin-bottom: 0px;
-    font-family: 'chicken';
+    font-family: 'chicken',Georgia, 'Times New Roman', Times, serif;
 }
 
 .main_contenu i{
