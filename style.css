@@ -167,13 +167,14 @@ main h3{
 .main_title{
     border-bottom: 1px solid rgba(30, 126, 182, 0.678);
     margin-left: 1.5em;
+    display: flex;
+    align-items: baseline;
 
 }
 
 main i {
     color: rgba(30, 126, 182, 0.678);
     font-size: 2em;
-    float: left;
     padding-right: 0.8em;
     padding-left: 0.5em;
 }
