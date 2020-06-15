@@ -30,7 +30,6 @@ header{
 header img{
     border-radius: 50%;
     border: 0.3em solid rgba(30, 126, 182, 0.678);
-    box-shadow: 1px black;
 }
 
 .profil_photo{
@@ -265,7 +264,9 @@ footer {
 
 
 
-/* Media Queries Responsive 1er breakpoint*/
+
+
+/* Media Queries Responsive Tablette */
 
 @media only screen and (max-width: 768px){
 
@@ -312,7 +313,9 @@ footer {
 
 }
 
-/* Media Queries Responsive 2eme breakpoint*/
+
+
+/* Media Queries Responsive Mobile */
 
 @media only screen and (max-width: 425px){
     .main_contenu{
