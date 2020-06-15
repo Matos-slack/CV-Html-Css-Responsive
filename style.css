@@ -112,6 +112,9 @@ aside h3{
     padding-right: 1em;
     padding-bottom: 1em;
 }
+.about_me ul{
+    list-style-type: circle;
+}
 
 .icons{
     display: flex;
@@ -230,6 +233,7 @@ main h5{
 
 .main_recommantation p{
     margin-left: 1.8em;
+    list-style: none;
 }
 
 .main_recommantation h5{
@@ -311,7 +315,11 @@ footer {
     footer{
         background-color: rgba(30, 126, 182, 0.678);
     }
-
+    .list ul{
+        text-align: center;
+        list-style: none;
+        padding-right: 2.5em;
+    }
 }
 
 
