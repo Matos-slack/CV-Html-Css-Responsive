@@ -15,7 +15,7 @@ body{
     color: #000;
     max-width: 920px;
     margin: auto;
-    border: 1px solid rgba(30, 126, 182, 0.678);
+    border: 1px solid #29B6F6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 0.85em;
 }
@@ -29,11 +29,11 @@ header{
 
 header img{
     border-radius: 50%;
-    border: 0.3em solid rgba(30, 126, 182, 0.678);
+    border: 0.3em solid #29B6F6;
 }
 
 .profil_photo{
-    background-color: rgba(30, 126, 182, 0.678) ;
+    background-color: #29B6F6 ;
     width: 32%;
     text-align: center;
     padding-top: 2em;
@@ -53,7 +53,7 @@ header h1{
  }
   
 .name-h1{
-    color: rgba(30, 126, 182, 0.678);
+    color: #29B6F6;
 } 
 
 header h2{
@@ -62,14 +62,14 @@ header h2{
 }
 
 .underline-h2{
-    border-bottom: 0.05em solid rgba(30, 126, 182, 0.678);
+    border-bottom: 0.05em solid #29B6F6;
     padding-bottom: 0.10em;
 }
 
 /* ASIDE */
 
 aside {
-    background-color: rgba(30, 126, 182, 0.678);
+    background-color: #29B6F6;
     width: 32%;
     color: rgba(53, 9, 9, 0.89);
     display: flex;
@@ -81,7 +81,7 @@ aside h3{
     text-transform: uppercase;
     font-size: 1.6em;
     background-color: rgba(53, 9, 9, 0.89);
-    color: rgba(30, 126, 182, 0.959);
+    color: #29B6F6;
     text-align: center;
     font-family: 'chicken',Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 0.2em;
@@ -168,7 +168,7 @@ main h3{
 }
 
 .main_title{
-    border-bottom: 1px solid rgba(30, 126, 182, 0.678);
+    border-bottom: 1px solid #29B6F6;
     margin-left: 1.5em;
     display: flex;
     align-items: baseline;
@@ -176,7 +176,7 @@ main h3{
 }
 
 main i {
-    color: rgba(30, 126, 182, 0.678);
+    color: #29B6F6;
     font-size: 2em;
     padding-right: 0.8em;
     padding-left: 0.5em;
@@ -245,7 +245,7 @@ main h5{
 
 .footer_left{
     width: 32%;
-    background-color: rgba(30, 126, 182, 0.678);
+    background-color: #29B6F6;
 }
 
 footer p{
@@ -313,7 +313,7 @@ footer {
         background-color: rgba(30, 126, 182, 0)
     }
     footer{
-        background-color: rgba(30, 126, 182, 0.678);
+        background-color: #29B6F6;
     }
     .list ul{
         text-align: center;
