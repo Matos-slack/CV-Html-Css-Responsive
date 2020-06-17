@@ -2,7 +2,7 @@
 
 @font-face{
     font-family: 'chicken';
-    src: url('police/CHICKEN\ Pie.ttf') format('truetype');
+    src: url('police/CHICKENPie.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -296,9 +296,11 @@ footer {
     }
     aside{
         width: 100%;
+        font-size: 1.1em;
     }
     main{
         width: 100%;
+        font-size: 1.1em;
     }
     .contact{
         text-align: center;
@@ -320,6 +322,9 @@ footer {
         list-style: none;
         padding-right: 2.5em;
     }
+    .about_me{
+        padding-bottom: 1em;
+    }
 }
 
 
@@ -331,6 +336,8 @@ footer {
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin-right: 1em;
+        margin-left: 1em;
     }
     .main_contenu i{
         padding-left: 0px;
@@ -350,6 +357,9 @@ footer {
     footer p{
         padding-top: 2em;
         margin: auto;
+    }
+    .main_recommantation{
+        flex-direction: column;
     }
 
 }
