@@ -325,6 +325,13 @@ footer {
     .about_me{
         padding-bottom: 1em;
     }
+    .main_contenu{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
 }
 
 
