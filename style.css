@@ -1,11 +1,16 @@
 /* Définition des Polices */
 
+
 @font-face{
-    font-family: 'chicken';
-    src: url('police/CHICKENPie.ttf') format('truetype');
+    font-family: 'Balsamique';
+    src: url('BalsamiqSans-Regular.ttf') format('truetype');
+    src: url('BalsamiqSans-Regular.otf') format('embedded-opentype');
+    src: url('BalsamiqSans-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
+
 
 
 /* Elements principaux de la page */
@@ -49,7 +54,7 @@ header h1{
      font-size: 2.5em;
      text-transform: uppercase;
      line-height: 0em;
-     font-family: 'chicken' ,Georgia, 'Times New Roman', Times, serif;
+     font-family: 'Balsamique',Georgia, 'Times New Roman', Times, serif;
  }
   
 .name-h1{
@@ -75,6 +80,7 @@ aside {
     display: flex;
     flex-direction: column;
     font-size: 0.95em;
+    font-family: 'Balsamique', Georgia, 'Times New Roman', Times, serif;
 }
 
 aside h3{
@@ -83,7 +89,7 @@ aside h3{
     background-color: rgba(53, 9, 9, 0.89);
     color: #29B6F6;
     text-align: center;
-    font-family: 'chicken',Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Balsamique',Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 0.2em;
     padding-top: 0.2em;
 }
@@ -164,7 +170,7 @@ main h3{
     text-transform: uppercase;
     color: #000;
     text-align: left;
-    font-family: 'chicken',Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Balsamique',Georgia, 'Times New Roman', Times, serif;
 }
 
 .main_title{
@@ -197,7 +203,7 @@ main h4{
     text-transform: uppercase;
     font-size: 1.1em;
     margin-bottom: 0px;
-    font-family: 'chicken',Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Balsamique',Georgia, 'Times New Roman', Times, serif;
 }
 
 .main_contenu i{
