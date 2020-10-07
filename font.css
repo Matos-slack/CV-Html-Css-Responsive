@@ -1,0 +1,42 @@
+.fa,.fab,.fad,.fal,.far,.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1
+}
+.fa-arrow-right:before {
+    content: "\f061"
+}
+.fa-briefcase:before {
+    content: "\f0b1"
+}.fa-circle:before {
+    content: "\f111"
+}
+.fa-dot-circle:before {
+    content: "\f192"
+}
+.fa-gamepad:before {
+    content: "\f11b"
+}
+.fa-mountain:before {
+    content: "\f6fc"
+}
+.fa-pencil-alt:before {
+    content: "\f303"
+}
+.fa-table-tennis:before {
+    content: "\f45d"
+}
+.fa,.far,.fas {
+    font-family: "Font Awesome 5 Free"
+}
+
+.fa,.fas {
+    font-weight: 900
+}
+.fab,.far {
+    font-weight: 400
+}

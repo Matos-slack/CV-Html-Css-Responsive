@@ -272,12 +272,16 @@ footer {
     background-color: rgb(238, 238, 238)
 }
 
+.info{
+    font-weight: 400;
+}
 
 
 
 
 
-/* Media Queries Responsive Tablette */
+
+/* Media Queries Responsive Tablette screen max 768px */
 
 @media only screen and (max-width: 768px){
 
@@ -342,7 +346,7 @@ footer {
 
 
 
-/* Media Queries Responsive Mobile */
+/* Media Queries Responsive Mobile screen max 425px */
 
 @media only screen and (max-width: 425px){
     .main_contenu{
@@ -376,4 +380,5 @@ footer {
     }
 
 }
+
 
