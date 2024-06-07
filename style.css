@@ -122,6 +122,9 @@ aside h3{
 .about_me ul{
     list-style-type: circle;
 }
+.hobbies ul{
+    list-style-type: circle;
+}
 
 .icons{
     display: flex;
