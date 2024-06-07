@@ -230,6 +230,7 @@ main h5{
 .main_recommantation a{
     text-decoration: none;
     color: #000;
+    margin-left: 1.8em;
 }
 
 .main_recommantation a:hover{
